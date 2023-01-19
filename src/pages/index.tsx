@@ -21,10 +21,12 @@ const Home: NextPage = () => {
       </Head>
 
       <Nav/>
-      <main className="flex min-h-screen flex-col items-center justify-center">
+      <main>
         <Header/>
-        <About/>
-        <Experience/>
+        <div className="flex-col items-center justify-center">
+          <About/>
+          <Experience/>
+        </div>
         <Projects/>
         <Contact/>
       </main>

@@ -10,7 +10,9 @@ import {MdEmail} from 'react-icons/md'
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
   return (
-    <div className="flex justify-center sticky top-0 z-50 p-10 gap-1">
+    <div className="flex justify-center sticky top-0 z-50 p-10 gap-5 text-2xl backdrop-filter backdrop-blur-lg rounded-full">
+      {/* <div>
+        </dive */}
       <a href='#' onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiFillHome/></a>
       <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><BsFillPersonFill/></a>
       <a href='#experience' onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BsFillJournalBookmarkFill/></a>
