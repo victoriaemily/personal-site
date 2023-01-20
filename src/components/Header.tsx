@@ -4,6 +4,7 @@ import Typewriter from 'typewriter-effect';
 import me from '../../public/cropped-emote.gif'
 import Image from 'next/image';
 import {BsFillArrowDownCircleFill} from 'react-icons/bs'
+import {AiOutlineFilePdf} from 'react-icons/ai'
 
 const Header = () => {
   return (
@@ -19,8 +20,12 @@ const Header = () => {
             .start();
         }}
         />
-        <div className="grid">
+        <div className="flex flex-col justify-center">
             <h5>i'm a full-stack web developer!</h5>
+            <div className='flex justify-center p-10'>
+                <a href="../../VEChenResume.pdf"><AiOutlineFilePdf/></a>
+            </div>
+            
             <div className='flex text-3xl justify-center mt-20 text-sky-600'>
             <div>
                 <BsFillArrowDownCircleFill className='bottom-0 animate-bounce'/>
