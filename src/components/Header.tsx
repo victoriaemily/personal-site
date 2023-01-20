@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <div className="p-10 text-center min-h-screen">
         <div className="grid text-md py-5 leading-8">
-        <div className='flex justify-center'>
+        <div className='flex justify-center pb-5'>
             <Image src={me} alt="me" width={200} height={200}/>
         </div>
         <Typewriter
