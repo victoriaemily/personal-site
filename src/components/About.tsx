@@ -1,6 +1,5 @@
 import React from 'react'
-import Image from 'next/image';
-import me from '../../public/proimg.png'
+
 
 const About = () => {
   return (
@@ -10,9 +9,7 @@ const About = () => {
                 about me
             </div>
             <div className="text-xl text-black">
-                <h5>currently, i'm a sophomore computer engineering major at texas a&m! i'm also an 
-                  undergraduate researcher at the neuroergonomics lab at texas a&m, where i'm conducting 
-                data analysis by analyzing and visually interpreting very messy real life data</h5>
+                <h5>currently, i'm a sophomore computer engineering major at texas a&m! i'm also an undergraduate researcher at the neuroergonomics lab at texas a&m, where i'm conducting data analysis by analyzing and visually interpreting very messy real life data</h5>
             </div>
 
         </div>
