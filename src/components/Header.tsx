@@ -1,5 +1,4 @@
 import React from 'react'
-import { MdDisabledVisible } from 'react-icons/md'
 import Typewriter from 'typewriter-effect';
 import me from '../../public/cropped-emote.gif'
 import Image from 'next/image';
