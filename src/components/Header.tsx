@@ -9,8 +9,8 @@ const Header = () => {
   return (
     <div className="flex p-20 text-2xl justify-center min-h-screen text-center text-black">
         <div className="grid text-md py-5 leading-8">
-        <div className='flex justify-center pb-5'>
-            <Image src={me} alt="me" width={250} height={250}/>
+        <div className='grid justify-center pb-5 object-cover'>
+            <Image src={me} alt="me" width={300}/>
         </div>
         <Typewriter
         onInit={(typewriter) => {
