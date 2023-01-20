@@ -9,8 +9,11 @@ import Experience from '../components/Experience';
 import Projects from '../components/Projects';
 
 import Contact from '../components/Contact';
+import {useState} from 'react';
+
 
 const Home: NextPage = () => {
+  const [darkMode, setDarkMode] = useState(false)
   return (
     <>
       
@@ -20,7 +23,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Nav/>
+      {/* <Nav/> */}
       <main className='bg-white'>
         <Header/>
           <About/>
