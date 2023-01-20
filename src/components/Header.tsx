@@ -11,7 +11,7 @@ const Header = () => {
     <div className="flex p-20 text-2xl justify-center min-h-screen text-center text-black">
         <div className="grid text-md py-5 leading-8">
         <div className='flex justify-center pb-5'>
-            <Image src={me} alt="me" width={200} height={200}/>
+            <Image src={me} alt="me" width={250} height={250}/>
         </div>
         <Typewriter
         onInit={(typewriter) => {
@@ -21,7 +21,6 @@ const Header = () => {
         }}
         />
         <div className="flex flex-col justify-center">
-            <h5>i'm a full-stack web developer!</h5>
             <div className='flex justify-center p-10'>
                 <a href="../../VEChenResume.pdf"><AiOutlineFilePdf/></a>
             </div>

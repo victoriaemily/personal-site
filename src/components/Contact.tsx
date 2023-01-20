@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <section id="contact" className='justify-center py-40'>
         <div className="flex justify-center text-black text-xl">
-            <h5>you can find me on the following</h5>
+            <h5>{"you can find me on the following"}</h5>
         </div>
         <div className='flex text-3xl pb-10 justify-center'>
             <div className='flex gap-5 py-5 text-sky-600'>
