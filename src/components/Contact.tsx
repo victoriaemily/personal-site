@@ -11,9 +11,9 @@ const Contact = () => {
         </div>
         <div className='flex text-3xl pb-10 justify-center'>
             <div className='flex gap-5 py-5 text-sky-600'>
-                <a href="https://github.com/victoriaemily" target="_blank"><AiFillGithub/></a>
-                <a href="https://www.linkedin.com/in/victoriaemilychen/" target="_blank"><BsLinkedin/></a>
-                <a href="https://invent.kde.org/victo" target="_blank"><SiKde/></a>
+                <a href="https://github.com/victoriaemily" className='hover:text-sky-900'><AiFillGithub/></a>
+                <a href="https://www.linkedin.com/in/victoriaemilychen/" className='hover:text-sky-900'><BsLinkedin/></a>
+                <a href="https://invent.kde.org/victo" className='hover:text-sky-900'><SiKde/></a>
             </div>        
         </div>
     </section>

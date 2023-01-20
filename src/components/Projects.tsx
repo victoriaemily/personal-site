@@ -1,13 +1,4 @@
 import React from 'react'
-import {SiNextdotjs} from 'react-icons/si'
-import {DiReact} from 'react-icons/di'
-import {SiTypescript} from 'react-icons/si'
-import {SiTailwindcss} from 'react-icons/si'
-import {DiMongodb} from 'react-icons/di'
-import todolist from '../../public/todo.jpg'
-import website from '../../public/website.jpg'
-
-import Image from 'next/image';
 import {AiFillGithub} from 'react-icons/ai'
 
 const Projects = () => {
