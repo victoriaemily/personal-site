@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <section id="projects" className='grid md:flex justify-center py-5 gap-5 text-black'>
      
-            <div className="card w-96 bg-base-100 shadow-xl">
+            <div className="card w-100 bg-base-100 shadow-lg md:w-96">
             <figure><img src="../../tests.jpg" alt="todo list image" /></figure>
             <div className="card-body bg-white rounded-lg">
                 <h2 className="card-title pb-3">{"to-do list"}</h2>
@@ -27,7 +27,7 @@ const Projects = () => {
             </div>
             </div>
 
-            <div className="card w-96 bg-base-100 shadow-xl">
+            <div className="card w-100 bg-base-100 shadow-xl md:w-96">
             <figure><img src="../../website2.jpg" alt="website image" /></figure>
             <div className="card-body bg-white rounded-lg">
                 <h2 className="card-title pb-3">{"victoria's site"}</h2>

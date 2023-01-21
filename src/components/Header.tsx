@@ -5,7 +5,9 @@ import Image from 'next/image';
 import {BsFillArrowDownCircleFill} from 'react-icons/bs'
 import {AiOutlineFilePdf} from 'react-icons/ai'
 
+
 const Header = () => {
+    
   return (
     <div className="flex p-20 text-2xl justify-center min-h-screen text-center text-black">
         <div className="grid text-md py-5 leading-8">
