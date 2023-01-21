@@ -9,10 +9,10 @@ import {DiMongodb} from 'react-icons/di'
 
 const Projects = () => {
   return (
-    <section id="projects" className='flex justify-center py-5 gap-5 text-black'>
+    <section id="projects" className='grid md:flex justify-center py-5 gap-5 text-black'>
      
             <div className="card w-96 bg-base-100 shadow-xl">
-            <figure><img src="../../tests.jpg" alt="Shoes" /></figure>
+            <figure><img src="../../tests.jpg" alt="todo list image" /></figure>
             <div className="card-body bg-white rounded-lg">
                 <h2 className="card-title pb-3">{"to-do list"}</h2>
                 <p>{"this to-do list uses a mongodb backend, ran on the cloud on mongo atlas, with a react & html/css frontend"}</p>
@@ -22,13 +22,13 @@ const Projects = () => {
                       <a className='hover:text-sky-900'><DiReact/></a>
                     </div>    
 
-                <a href="https://github.com/victoriaemily/todoList" className="btn gap-3 bg-gray-600 text-2xl text-white"><AiFillGithub/></a>
+                <a href="https://github.com/victoriaemily/todoList" className="btn gap-3 bg-slate-400 text-2xl text-white"><AiFillGithub/></a>
                 </div>
             </div>
             </div>
 
             <div className="card w-96 bg-base-100 shadow-xl">
-            <figure><img src="../../website2.jpg" alt="Shoes" /></figure>
+            <figure><img src="../../website2.jpg" alt="website image" /></figure>
             <div className="card-body bg-white rounded-lg">
                 <h2 className="card-title pb-3">{"victoria's site"}</h2>
                 <p className="pb-10">{"a project using tailwind css, typescript, & react for the frontend and next.js for the backend framework"}</p>
@@ -39,7 +39,7 @@ const Projects = () => {
                       <a className='hover:text-sky-900'><DiReact/></a>
                       <a className='hover:text-sky-900'><SiNextdotjs/></a>
                   </div> 
-                <a href="https://github.com/victoriaemily/personal-site" className="btn gap-3 bg-gray-600 text-2xl text-white"><AiFillGithub/></a>
+                <a href="https://github.com/victoriaemily/personal-site" className="btn gap-3 bg-slate-400	 text-2xl text-white"><AiFillGithub/></a>
                 </div>
             </div>
             </div>
