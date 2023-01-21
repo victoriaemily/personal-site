@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import About from '../components/About';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
+import Languages from '../components/Languages';
 
 
 const Home: NextPage = () => {
@@ -18,7 +19,18 @@ const Home: NextPage = () => {
       {/* <Nav/> */}
       <main className='bg-white'>
         <Header/>
-          <About/>
+        <div className='p-10'>
+            <div  className='flex p-10 text-sky-600 text-2xl justify-center pb-20'>
+              <h1>{"about me & what i'm doing"}</h1>
+            </div>
+            <About/>
+          </div>
+          <div className='p-10'>
+            <div  className='flex p-10 text-sky-600 text-2xl justify-center pb-20'>
+              <h1>{"languages & technologies"}</h1>
+            </div>
+            <Languages/>
+          </div>
           <div className='p-10'>
             <div  className='flex p-10 text-sky-600 text-2xl justify-center pb-20'>
               <h1>{"my projects"}</h1>
