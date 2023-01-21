@@ -4,7 +4,7 @@ import React from 'react'
 const About = () => {
   return (
     <section id="about" className='flex justify-center'>
-        <div className="flex-row rounded-3xl p-10 max-w-xl mx-h-sm justify-center">
+        <div className="flex-row rounded-3xl pb-10 px-10 max-w-xl mx-h-sm justify-center">
             <div className="text-xl text-black">
 
             <h5>{"currently, i'm a sophomore computer engineering major at texas a&m!"}</h5>
