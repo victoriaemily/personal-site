@@ -21,7 +21,7 @@ const Home: NextPage = () => {
         <Header/>
           <About/>
           <div className='p-10'>
-            <div  className='flex p-10 text-sky-600 text-2xl justify-center'>
+            <div  className='flex p-10 text-sky-600 text-2xl justify-center pb-20'>
               <h1>{"my projects"}</h1>
             </div>
             <Projects/>
