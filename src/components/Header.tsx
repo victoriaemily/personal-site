@@ -21,9 +21,11 @@ const Header = () => {
             .start();
         }}
         />
-        <div className="flex flex-col justify-center">
-            <div className='flex justify-center p-10'>
+        <div className="grid text-4xl justify-center 2xl:mb-20 2xl:text-5xl">
+            <div className='flex justify-center p-10 2xl:mb-20'>
+                <div className="flex">
                 <a href="../../VEChenResume.pdf"><AiOutlineFilePdf/></a>
+                </div>
             </div>
             
             <div className='flex text-3xl justify-center mt-15 text-sky-600'>

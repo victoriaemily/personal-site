@@ -17,12 +17,12 @@ const Projects = () => {
                 <h2 className="card-title pb-3">{"to-do list"}</h2>
                 <p>{"this to-do list uses a mongodb backend, ran on the cloud on mongo atlas, with a react & html/css frontend"}</p>
                 <div className="card-actions justify-between">
-                    <div className='flex gap-7 py-4 text-sky-600 text-2xl'>
+                    <div className='flex gap-1.5 py-4 text-sky-600 text-2xl md:gap-5'>
                       <a className='hover:text-sky-900'><DiMongodb/></a>
                       <a className='hover:text-sky-900'><DiReact/></a>
                     </div>    
 
-                <a href="https://github.com/victoriaemily/todoList" className="btn gap-3 bg-slate-400 text-2xl text-white"><AiFillGithub/></a>
+                <a href="https://github.com/victoriaemily/todoList" className="btn bg-slate-400 text-2xl text-white"><AiFillGithub/></a>
                 </div>
             </div>
             </div>
@@ -33,13 +33,13 @@ const Projects = () => {
                 <h2 className="card-title pb-3">{"victoria's site"}</h2>
                 <p className="pb-10">{"a project using tailwind css, typescript, & react for the frontend and next.js for the backend framework"}</p>
                 <div className="card-actions justify-between">
-                <div className='flex gap-7 py-4 text-sky-600 text-2xl'>
+                <div className='flex gap-1 py-4 text-sky-600 text-2xl md:gap-5'>
                       <a className='hover:text-sky-900'><SiTailwindcss/></a>
                       <a className='hover:text-sky-900'><SiTypescript/></a>
                       <a className='hover:text-sky-900'><DiReact/></a>
                       <a className='hover:text-sky-900'><SiNextdotjs/></a>
                   </div> 
-                <a href="https://github.com/victoriaemily/personal-site" className="btn gap-3 bg-slate-400	 text-2xl text-white"><AiFillGithub/></a>
+                <a href="https://github.com/victoriaemily/personal-site" className="btn bg-slate-400	text-2xl text-white"><AiFillGithub/></a>
                 </div>
             </div>
             </div>
