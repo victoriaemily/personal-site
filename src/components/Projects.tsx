@@ -22,7 +22,7 @@ const Projects = () => {
                       <a className='hover:text-sky-900'><DiReact/></a>
                     </div>    
 
-                <a href="https://github.com/victoriaemily/todoList" className="btn bg-slate-400 text-2xl text-white"><AiFillGithub/></a>
+                <a href="https://github.com/victoriaemily/todoList" className="btn bg-slate-800 text-2xl text-white"><AiFillGithub/></a>
                 </div>
             </div>
             </div>
@@ -39,7 +39,7 @@ const Projects = () => {
                       <a className='hover:text-sky-900'><DiReact/></a>
                       <a className='hover:text-sky-900'><SiNextdotjs/></a>
                   </div> 
-                <a href="https://github.com/victoriaemily/personal-site" className="btn bg-slate-400	text-2xl text-white"><AiFillGithub/></a>
+                <a href="https://github.com/victoriaemily/personal-site" className="btn bg-slate-800	text-2xl text-white"><AiFillGithub/></a>
                 </div>
             </div>
             </div>
