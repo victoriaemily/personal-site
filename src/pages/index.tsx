@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       {/* <Nav/> */}
       <main className='bg-white'>
         <Header/>
-        <div className='p-10'>
+        {/* <div className='p-10'>
             <div  className='flex p-10 text-sky-600 text-2xl justify-center pb-20'>
               <h1>{"about me & what i'm doing"}</h1>
             </div>
@@ -30,14 +30,14 @@ const Home: NextPage = () => {
               <h1>{"languages & technologies"}</h1>
             </div>
             <Languages/>
-          </div>
-          <div className='p-10'>
+          </div> */}
+          {/* <div className='p-10'>
             <div  className='flex p-10 text-sky-600 text-2xl justify-center pb-20'>
               <h1>{"my projects"}</h1>
             </div>
             <Projects/>
-          </div>
-        <Contact/>
+          </div> */}
+        {/* <Contact/> */}
       </main>
       
     </>
