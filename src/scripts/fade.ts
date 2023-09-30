@@ -30,3 +30,6 @@ if (typeof window !== 'undefined') {
     // Trigger the initial check when the page loads
     window.addEventListener('load', handleScroll);
 }
+
+
+export {};
