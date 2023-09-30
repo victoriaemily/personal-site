@@ -1,4 +1,5 @@
 import React from 'react'
+import '../scripts/fade'
 
 const Languages = () => {
   const techs = ['React', 'Node', 'Next', 'Python', 'C++', 'TypeScript', 'JavaScript', 'PostgreSQL', 'Matplotlib', 'NumPy', 'Git', 'Linux', 'MongoDB']
@@ -7,7 +8,7 @@ const Languages = () => {
   );
   return (
     <>
-    <div className ='flex justify-center'>
+    <div className ='fade-in-component flex justify-center'>
         <div className="grid grid-cols-2 max-w-md text-xl text-sky-600 gap-5 md:grid-cols-3">
             {techItems}
         </div>

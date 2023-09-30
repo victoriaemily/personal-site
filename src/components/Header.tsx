@@ -21,18 +21,17 @@ const Header = () => {
             .start();
         }}
         />
-        <p>this site is under construction! please check back in later :D</p>
         <div className="grid text-4xl justify-center 2xl:mb-20 2xl:text-5xl">
             <div className='flex justify-center p-10 2xl:mb-20'>
                 <div className="flex">
-                <a href="../../VictoriaChen_Resume.pdf"><AiOutlineFilePdf/></a>
+                <a href="../../Victoria_Chen_Resume.pdf"><AiOutlineFilePdf/></a>
                 </div>
             </div>
             
             <div className='flex text-3xl justify-center mt-15 text-sky-600'>
-            {/* <div>
+            <div>
                 <BsFillArrowDownCircleFill className='bottom-0 animate-bounce'/>
-            </div> */}
+            </div>
         </div> 
         </div> 
         </div>        
