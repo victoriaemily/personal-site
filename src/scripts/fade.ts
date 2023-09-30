@@ -1,3 +1,5 @@
+import {} from './fade';
+
 function isElementInViewport(el: HTMLElement): boolean {
     if (typeof window !== 'undefined') {
         const rect = el.getBoundingClientRect();
